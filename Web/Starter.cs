@@ -406,7 +406,7 @@ namespace Spacebuilder.Environments
             }
             catch { }
 
-            //关闭全文检索索引
+            // 关闭全文检索索引
             if (!distributedDeploy)
             {
                 IEnumerable<ISearcher> searchers = SearcherFactory.GetSearchersOfBaseLucene();
