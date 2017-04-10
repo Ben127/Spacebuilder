@@ -390,7 +390,7 @@ namespace Spacebuilder.Environments
 
             new EmailService().ReLoadSmtpSettings();
 
-            //启动定时任务
+            // 启动定时任务
             TaskSchedulerFactory.GetScheduler().Start();
         }
 
