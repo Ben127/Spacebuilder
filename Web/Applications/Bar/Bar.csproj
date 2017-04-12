@@ -251,13 +251,16 @@
     <Compile Include="ViewModels\SectionSettingsEditModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="lib\Spacebuilder.Bar.Service.dll" />
     <Content Include="Scripts\jquery.spb.bar.js" />
     <Content Include="Setup\Install\MySql\01_Install_Bar_Schema.sql" />
     <Content Include="Setup\Install\MySql\02_Install_Bar_InitialData.sql" />
     <Content Include="Setup\Install\SqlServer\01_Install_Bar_Schema.sql" />
     <Content Include="Setup\Install\SqlServer\02_Install_Bar_InitialData.sql" />
     <Content Include="Styles\app.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

@@ -227,6 +227,7 @@
     <Compile Include="Configuration\MicroblogUrlGetterFactory.cs" />
     <Compile Include="UrlRoutingRegistration.cs" />
     <Compile Include="ViewModels\MicroblogCommentEditModel.cs" />
+    <Content Include="lib\Spacebuilder.Microblog.Service.dll" />
     <Content Include="Scripts\tunynet\jquery.spb.microblog.Create.js" />
     <Content Include="Scripts\tunynet\jquery.spb.microblog.List.js" />
     <Content Include="Setup\Install\MySql\01_Install_Microblog_Schema.sql" />

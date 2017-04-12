@@ -239,6 +239,7 @@
     <Content Include="Languages\zh-CN\NoticeTemplates.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="lib\Spacebuilder.CMS.Service.dll" />
     <Content Include="Setup\Install\MySql\01_Install_CMS_Schema.sql" />
     <Content Include="Setup\Install\MySql\02_Install_CMS_InitialData.sql" />
     <Content Include="Setup\Install\SqlServer\01_Install_CMS_Schema.sql" />

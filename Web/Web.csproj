@@ -1957,6 +1957,7 @@
     <Folder Include="App_Data\HttpCache\" />
     <Folder Include="App_Data\IndexFiles\" />
     <Folder Include="App_Data\Logs\" />
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Scripts\swfUpload\" />
     <Folder Include="Scripts\tinymce\plugins\spellchecker\classes\utils\" />
     <Folder Include="Scripts\tinymce\plugins\spellchecker\includes\" />

@@ -235,6 +235,7 @@
     <Content Include="Languages\zh-CN\NoticeTemplates.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="lib\Spacebuilder.Blog.Service.dll" />
     <Content Include="Scripts\jquery.spb.blog.js" />
     <Content Include="Setup\Install\MySql\01_Install_Blog_Schema.sql" />
     <Content Include="Setup\Install\MySql\02_Install_Blog_InitialData.sql" />
