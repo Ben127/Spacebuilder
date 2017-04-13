@@ -270,9 +270,9 @@ namespace Spacebuilder.Environments
 
             DIContainer.RegisterContainer(container);
 
-            //将webapi的返回值设为Json格式
-            var jsonFormatter = new JsonMediaTypeFormatter();
-            GlobalConfiguration.Configuration.Services.Replace(typeof(IContentNegotiator), new JsonContentNegotiator(jsonFormatter));
+            //将webapi的返回值设为Json格式(暂时删除移动端)
+            //var jsonFormatter = new JsonMediaTypeFormatter();
+            //GlobalConfiguration.Configuration.Services.Replace(typeof(IContentNegotiator), new JsonContentNegotiator(jsonFormatter));
         }
 
         /// <summary>
