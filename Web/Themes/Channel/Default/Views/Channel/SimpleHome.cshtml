@@ -46,7 +46,7 @@
             </div>
             @using (Html.BeginForm("Login", "Account", FormMethod.Post))
             { 
-                @*@Html.AntiForgeryToken()*@
+                @Html.AntiForgeryToken()
                 <div class="spb-welcome-login">
                     <div class="spb-welcome-id">
                         <div class="spb-welcome-textbox">
