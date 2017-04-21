@@ -251,3 +251,4 @@ paket-files/
 .idea/
 *.sln.iml
 /Web/App_Data/IndexFiles
+/Web/Uploads/ueditor/image/20170421
