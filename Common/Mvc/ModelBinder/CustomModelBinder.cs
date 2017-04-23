@@ -95,7 +95,7 @@ namespace Spacebuilder.Common
             if (cleanHtml)
             {
                 //处理多行纯文本
-                inputValue = HtmlUtility.CleanHtml(inputValue, TrustedHtmlLevel.HtmlEditor);
+                //inputValue = HtmlUtility.CleanHtml(inputValue, TrustedHtmlLevel.HtmlEditor);
             }
             else
             {
